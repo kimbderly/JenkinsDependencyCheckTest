@@ -1,9 +1,9 @@
-pipeline {
+ipipeline {
 	agent any
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git '/home/Desktop/3103/Labs/Lab 6/JenkinsDependencyCheckTest'
+				git '/home/JenkinsDependencyCheckTest'
 			}
 		}
 
